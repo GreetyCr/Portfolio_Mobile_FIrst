@@ -1,4 +1,5 @@
 @import url('https://fonts.google.com/specimen/Poppins?query=pop&preview.text=Im%20greety&preview.text_type=custom');
+
 * {
   font-family: 'Crete Round', sans-serif;
   padding: 0;
@@ -35,7 +36,7 @@ NAVBAR (SECTION 1)
 }
 
 .navbar__burguer {
-  color: #fff;
+  color: #ffffff;
   font-size: 24px;
 }
 
@@ -80,7 +81,7 @@ ABOUT ME (SECTION 2)
 
 .about-me__info--sub-title {
   color: #fff5e1;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   line-height: 32px;
   padding: 8px 0;
 }

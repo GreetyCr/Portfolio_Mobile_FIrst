@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+
+@import url('https://fonts.google.com/specimen/Roboto?preview.text=Roboto&preview.text_type=custom');
+
 * {
   font-family: 'Crete Round', sans-serif;
   padding: 0;
@@ -33,4 +37,32 @@ NAVBAR (SECTION 1)
 
 .navbar__burguer {
   color: #fff;
+}
+
+/*
+
+ABOUT ME (SECTION 2)
+
+*/
+
+.about-me__info--container {
+  background-color: #1c1a19;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 120px 24px;
+}
+
+.about-me__info--container--title {
+  font-weight: 400;
+  color: #ff6b00;
+  font-size: 56px;
+  line-height: 64px;
+}
+
+.about-me__info--container--sub-title {
+  color: #fff5e1;
+  font-family: 'Roboto';
+  line-height: 32px;
+
 }

@@ -1,7 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
-
-@import url('https://fonts.google.com/specimen/Roboto?preview.text=Roboto&preview.text_type=custom');
-
+@import url('https://fonts.google.com/specimen/Poppins?query=pop&preview.text=Im%20greety&preview.text_type=custom');
 * {
   font-family: 'Crete Round', sans-serif;
   padding: 0;
@@ -26,6 +23,8 @@ NAVBAR (SECTION 1)
 
 #about-me {
   background-color: #3c3a39;
+  width: 100%;
+  min-width: 400px;
 }
 
 .navbar {
@@ -37,6 +36,7 @@ NAVBAR (SECTION 1)
 
 .navbar__burguer {
   color: #fff;
+  font-size: 24px;
 }
 
 /*
@@ -49,8 +49,10 @@ ABOUT ME (SECTION 2)
   background-color: #1c1a19;
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: flex-start;
   padding: 120px 24px;
+  width: 100%;
+  min-width: 400px;
 }
 
 .about-me__info--title {
@@ -58,11 +60,34 @@ ABOUT ME (SECTION 2)
   color: #ff6b00;
   font-size: 56px;
   line-height: 64px;
+  width: 100%;
+  min-width: 327px;
 }
 
 .about-me__info--sub-title {
   color: #fff5e1;
   font-family: 'Roboto';
   line-height: 32px;
+  padding: 8px 0;
+}
 
+.about-me__info--para {
+  color: #ffffff;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 24px;
+  width: 85%;
+  min-width: 327px;
+}
+
+.about-me__social-media {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.about-me__logo {
+  color: #dbd8d7;
+  font-size: 24px;
+  padding: 16px 12px;
 }

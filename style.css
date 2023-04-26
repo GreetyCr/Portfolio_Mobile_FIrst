@@ -36,7 +36,7 @@ NAVBAR (SECTION 1)
 }
 
 .navbar__burguer {
-  color: #ffffff;
+  color: #fff;
   font-size: 24px;
 }
 
@@ -87,7 +87,7 @@ ABOUT ME (SECTION 2)
 }
 
 .about-me__info--para {
-  color: #ffffff;
+  color: #fff;
   font-size: 16px;
   font-style: normal;
   line-height: 24px;

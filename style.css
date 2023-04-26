@@ -55,6 +55,20 @@ ABOUT ME (SECTION 2)
   min-width: 400px;
 }
 
+.about-me__info--container::before {
+  content: "";
+  position: absolute;
+  top: 38%;
+  left: 60%;
+  right: 0;
+  bottom: 0;
+  background-image: url(./assets/Illustration-header.png);
+  background-repeat: no-repeat;
+  background-size: 270px;
+  z-index: 1;
+  transform: rotate(0deg);
+}
+
 .about-me__info--title {
   font-weight: 400;
   color: #ff6b00;

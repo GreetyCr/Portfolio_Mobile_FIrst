@@ -31,13 +31,9 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
-
 # 📖 [Portfolio Mobile First] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[Portfolio Mobile First]** is a portfolio developed with the mobile first aproach
+**[Portfolio Mobile First]** is a portfolio developed with the mobile first aproach, this portfolio is made for you to get to know me as a full stack developer and know more about my work.
 
 ## 🛠 Built With <a name="built-with">No built needed</a>
 
@@ -65,8 +61,6 @@
   </ul>
 </details>
 
-<!-- Features -->
-
 ### Key Features <a name="key-features"></a>
 
 > Describe between 1-3 key features of the application.
@@ -77,14 +71,11 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://google.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -95,6 +86,7 @@ To get a local copy up and running, follow these steps.
 2. Use Live server extention 
 ID: ritwickdey.LiveServer
 Or run it via GitHub Pages
+
 ### Prerequisites
 
 In order to run this project you need:
@@ -132,8 +124,6 @@ No tests needed at the moment
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
-
 ## 👥 Authors <a name="authors"></a>
 
 > Microverse
@@ -150,8 +140,6 @@ No tests needed at the moment
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
-
 ## 🔭 Future Features <a name="future-features"></a>
 
 > Describe 1 - 3 features you will add to the project.
@@ -162,8 +150,6 @@ No tests needed at the moment
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CONTRIBUTING -->
-
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
@@ -171,8 +157,6 @@ Contributions, issues, and feature requests are welcome!
 Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
@@ -182,16 +166,11 @@ If you like this project we encourage you to support Microverse to keep helping 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGEMENTS -->
-
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank Microverse for this lesson and the portfolio desing
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 

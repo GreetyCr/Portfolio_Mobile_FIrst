@@ -5,10 +5,20 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+.flex_row{
+  display: flex;
+}
+
+.flex_column {
+  display: flex;
+  flex-direction: column;
 }
 
 /*
@@ -24,12 +34,11 @@ NAVBAR (SECTION 1)
 
 #about-me {
   background-color: #3c3a39;
-  width: 100%;
-  min-width: 400px;
+  width: 100vw;
+  min-width: 375px;
 }
 
 .navbar {
-  display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
@@ -48,34 +57,30 @@ ABOUT ME (SECTION 2)
 
 .about-me__info--container {
   background-color: #1c1a19;
-  display: flex;
-  flex-direction: column;
   align-items: flex-start;
   padding: 120px 24px;
-  width: 100%;
-  min-width: 400px;
+  width: 100vw;
+  min-width: 375px;
 }
 
 .about-me__info--container::before {
   content: "";
   position: absolute;
-  top: 38%;
+  top: 50%;
   left: 60%;
   right: 0;
   bottom: 0;
   background-image: url(./assets/Illustration-header.png);
   background-repeat: no-repeat;
   background-size: 270px;
-  z-index: 1;
-  transform: rotate(0deg);
 }
 
 .about-me__info--title {
+  font-family: 'Crete Round';
   font-weight: 400;
   color: #ff6b00;
   font-size: 56px;
   line-height: 64px;
-  width: 100%;
   min-width: 327px;
 }
 
@@ -91,14 +96,7 @@ ABOUT ME (SECTION 2)
   font-size: 16px;
   font-style: normal;
   line-height: 24px;
-  width: 85%;
   min-width: 327px;
-}
-
-.about-me__social-media {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
 }
 
 .about-me__logo {

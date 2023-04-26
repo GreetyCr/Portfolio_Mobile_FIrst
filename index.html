@@ -1,52 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio Mobile First</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="https://kit.fontawesome.com/a019e17187.js" crossorigin="anonymous"></script>
-</head>
-<body>
-  <section id="about-me">
-    <nav class="navbar">
-      <figure>
-        <img id="personal-logo" src="./assets/Logo lujoso vintage dorado azul copy.png" alt="Greety">
-      </figure>
-      <a href=""><i class="fa-sharp fa-solid fa-bars navbar__burguer"></i></a>
-    </nav>
-  </section>
-  <div class="about-me__info--container">
-    <h1 class="about-me__info--title">
-      Hey There. 
-      <br>
-      I'm Greety. 
-    </h1>
-    <h2 class="about-me__info--sub-title">
-      I'm a Software Developer
-    </h2>
-    <p class="about-me__info--para">
-      I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
-      don't hesitate to contact me.
-    </p>
-    <div class="about-me__social-media">
-      <div class="about-me__logo--container">
-        <a href=""><i class="fa-brands fa-github about-me__logo"></i></a>
-      </div>  
-      <div class="about-me__logo--container">
-        <a href=""><i class="fa-brands fa-linkedin-in about-me__logo"></i></a>
-      </div>  
-      <div class="about-me__logo--container">
-        <a href=""><i class="fa-regular fa-hand-peace fa-flip-horizontal about-me__logo"></i></a>
-      </div>  
-      <div class="about-me__logo--container">
-        <a href=""><i class="fa-brands fa-twitter about-me__logo"></i></a>
-      </div>  
-      <div class="about-me__logo--container">
-        <a href=""><i class="fa-sharp fa-solid fa-m about-me__logo"></i></a>
-      </div>  
-    </div>
-  </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Mobile First</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/a019e17187.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header id="about-me">
+      <nav class="navbar flex_row">
+        <figure>
+          <img
+            id="personal-logo"
+            src="./assets/Logo lujoso vintage dorado azul copy.png"
+            alt="Greety"
+          />
+        </figure>
+        <a href=""><i class="fa-sharp fa-solid fa-bars navbar__burguer"></i></a>
+      </nav>
+    </header>
+    <main class="about-me__info--container flex_column">
+      <h1 class="about-me__info--title">
+        Hey There.
+        <br />
+        I'm Greety.
+      </h1>
+      <h2 class="about-me__info--sub-title">I'm a Software Developer</h2>
+      <p class="about-me__info--para">
+        I can help you build a product , feature or website Look through some of
+        my work and experience! If you like what you see and have a project you
+        need coded, don't hesitate to contact me.
+      </p>
+      <li class="about-me__social-media flex_row">
+        <ul class="about-me__logo--container">
+          <a href=""><i class="fa-brands fa-github about-me__logo"></i></a>
+        </ul>
+        <ul class="about-me__logo--container">
+          <a href=""><i class="fa-brands fa-linkedin-in about-me__logo"></i></a>
+        </ul>
+        <ul class="about-me__logo--container">
+          <a href=""
+            ><i
+              class="fa-regular fa-hand-peace fa-flip-horizontal about-me__logo"
+            ></i
+          ></a>
+        </ul>
+        <ul class="about-me__logo--container">
+          <a href=""><i class="fa-brands fa-twitter about-me__logo"></i></a>
+        </ul>
+        <ul class="about-me__logo--container">
+          <a href=""><i class="fa-sharp fa-solid fa-m about-me__logo"></i></a>
+        </ul>
+      </li>
+    </main>
+  </body>
 </html>

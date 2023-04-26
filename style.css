@@ -53,14 +53,14 @@ ABOUT ME (SECTION 2)
   padding: 120px 24px;
 }
 
-.about-me__info--container--title {
+.about-me__info--title {
   font-weight: 400;
   color: #ff6b00;
   font-size: 56px;
   line-height: 64px;
 }
 
-.about-me__info--container--sub-title {
+.about-me__info--sub-title {
   color: #fff5e1;
   font-family: 'Roboto';
   line-height: 32px;

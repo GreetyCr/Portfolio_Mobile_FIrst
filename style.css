@@ -1,7 +1,6 @@
-@import url('https://fonts.google.com/specimen/Poppins?query=pop&preview.text=Im%20greety&preview.text_type=custom');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:wght@400;700&display=swap');
 
 * {
-  font-family: 'Crete Round', sans-serif;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -12,7 +11,7 @@ html {
   scroll-behavior: smooth;
 }
 
-.flex_row{
+.flex_row {
   display: flex;
 }
 
@@ -76,7 +75,7 @@ ABOUT ME (SECTION 2)
 }
 
 .about-me__info--title {
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', sans-serif;
   font-weight: 400;
   color: #ff6b00;
   font-size: 56px;
@@ -92,6 +91,7 @@ ABOUT ME (SECTION 2)
 }
 
 .about-me__info--para {
+  font-family: 'Poppins', sans-serif;
   color: #fff;
   font-size: 16px;
   font-style: normal;

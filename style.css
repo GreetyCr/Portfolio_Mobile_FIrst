@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:wght@400;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.flex_row {
+  display: flex;
+}
+
+.flex_column {
+  display: flex;
+  flex-direction: column;
+}
+
+/*
+
+NAVBAR (SECTION 1)
+
+*/
+
+#personal-logo {
+  width: 50px;
+  height: 50px;
+}
+
+#about-me {
+  background-color: #3c3a39;
+  width: 100vw;
+}
+
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.navbar__burguer {
+  color: #fff;
+  font-size: 24px;
+}
+
+/*
+
+ABOUT ME (SECTION 2)
+
+*/
+
+.about-me__info--container {
+  background-color: #1c1a19;
+  align-items: flex-start;
+  padding: 120px 24px;
+  width: 100vw;
+}
+
+.about-me__info--container::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  right: 0;
+  bottom: 0;
+  background-image: url(./assets/Illustration-header.png);
+  background-repeat: no-repeat;
+  background-size: 270px;
+}
+
+.about-me__info--title {
+  font-family: 'Crete Round', sans-serif;
+  font-weight: 400;
+  color: #ff6b00;
+  font-size: 56px;
+  line-height: 64px;
+}
+
+.about-me__info--sub-title {
+  color: #fff5e1;
+  font-family: 'Roboto', sans-serif;
+  line-height: 32px;
+  padding: 8px 0;
+}
+
+.about-me__info--para {
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 24px;
+  width: 75%;
+}
+
+.about-me__logo {
+  color: #dbd8d7;
+  font-size: 24px;
+  padding: 16px 12px;
+}

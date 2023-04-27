@@ -63,8 +63,6 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
 - **[Descriptive_README_File]**
 - **[Header]**
 - **[Headline_Section]**
@@ -73,7 +71,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://google.com)
+[Coming soon :rocket: ]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -102,7 +100,7 @@ Example commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone git@github.com:GreetyCr/Portfolio_Mobile_FIrst.git
 ```
 
 ### Install
@@ -126,14 +124,7 @@ No tests needed at the moment
 
 ## 👥 Authors <a name="authors"></a>
 
-> Microverse
-> Randall Bonilla
-
-👤 **Author1**
-
-- GitHub: [@microverseinc](https://github.com/microverseinc)
-
-👤 **Author2**
+👤 **Randall Bonilla**
 
 - GitHub: [@greetycr](https://github.com/GreetyCr)  
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/randall-bonilla-cordero-8653a6220/)
@@ -141,8 +132,6 @@ No tests needed at the moment
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
 
 - [ ] **[Section_3_My_Projects]**
 - [ ] **[Responsive_Desing]**
@@ -160,8 +149,6 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
 If you like this project we encourage you to support Microverse to keep helping the future of web development and creating such a good habits on the future developers around the world
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -175,7 +162,5 @@ I would like to thank Microverse for this lesson and the portfolio desing
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

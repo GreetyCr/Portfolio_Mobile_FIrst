@@ -34,7 +34,6 @@ NAVBAR (SECTION 1)
 #about-me {
   background-color: #3c3a39;
   width: 100vw;
-  min-width: 375px;
 }
 
 .navbar {
@@ -59,7 +58,6 @@ ABOUT ME (SECTION 2)
   align-items: flex-start;
   padding: 120px 24px;
   width: 100vw;
-  min-width: 375px;
 }
 
 .about-me__info--container::before {
@@ -80,7 +78,6 @@ ABOUT ME (SECTION 2)
   color: #ff6b00;
   font-size: 56px;
   line-height: 64px;
-  min-width: 327px;
 }
 
 .about-me__info--sub-title {
@@ -96,7 +93,7 @@ ABOUT ME (SECTION 2)
   font-size: 16px;
   font-style: normal;
   line-height: 24px;
-  min-width: 327px;
+  width: 75%;
 }
 
 .about-me__logo {

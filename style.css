@@ -23,6 +23,14 @@ li {
   list-style: none;
 }
 
+.white {
+  color: #fff;
+}
+
+.absolute {
+  position: absolute;
+}
+
 /*
 
 NAVBAR (SECTION 1)
@@ -138,7 +146,7 @@ PROJECTS
 }
 
 .project__card--img{
-  padding: 24px 0;
+  height: 100%;
 }
 
 .project__card--text, .project__card--img {
@@ -159,6 +167,10 @@ PROJECTS
   padding: 12px 0;
 }
 
+.project__card--lenguages {
+  width: 75%;
+}
+
 .project__card--lenguage {
   border: 1px solid #8993a4;
   width: 100%;
@@ -177,5 +189,38 @@ PROJECTS
   background-color: #ff6b00;
   color: #fff;
   margin-top: 12px;
+  
+}
+
+.project__card--button--position {
   padding: 12px;
 }
+
+.project__card--button-secondary {
+  width: 100%;
+  padding: 12px;
+}
+
+.works__container {
+  margin-top: 24px;
+  align-items: flex-start;
+  background-image: url(./assets/Img\ Placeholder\ project.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.works__lenguages {
+  width: 75%;
+  padding-bottom: 12px;
+}
+
+.works__container--text {
+  padding: 72px 13px 0px 13px;
+}
+
+.project__card--lenguage-secondary {
+  background: rgba(255, 255, 255, 0.24);
+  padding: 10px 12px;
+  border: none;
+}
+

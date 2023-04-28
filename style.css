@@ -31,6 +31,13 @@ li {
   position: absolute;
 }
 
+.center__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 15%;
+}
+
 /*
 
 NAVBAR (SECTION 1)
@@ -265,11 +272,57 @@ PROJECTS
 .about-me__info--container--secondary::before {
   content: "";
   position: absolute;
-  top: 60%;
+  top: 16%;
   left: 60%;
   right: 0;
   bottom: 0;
   background-image: url(./assets/Frame\ updated.svg);
   background-repeat: no-repeat;
   background-size: 150px;
+}
+
+.horizontal-line {
+  margin: 100px 0;
+  background-color: #fff;
+  width: 100%;
+  height: 1px;
+}
+
+.tech-stack__lists {
+  justify-content: center;
+}
+
+.fa-diamond,
+.fa-square {
+  color: #ff6b00;
+  font-size: 26px;
+}
+
+.tech-stack__title {
+  margin-bottom: 12px;
+}
+
+.tech-stack__list--title{ 
+  color: #fff;
+  font-family: 'InaiMathi', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.tech-stack__item {
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  line-height: 43px;
+  font-size: 22px;
+  font-weight: 400;
+  font-style: normal;
+  margin: 12px 0;
+}
+
+.tech-stack__items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 38px;
 }

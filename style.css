@@ -4,7 +4,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  overflow: hidden;
 }
 
 html {
@@ -18,6 +17,25 @@ html {
 .flex_column {
   display: flex;
   flex-direction: column;
+}
+
+li {
+  list-style: none;
+}
+
+.white {
+  color: #fff;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.center__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 15%;
 }
 
 /*
@@ -100,4 +118,212 @@ ABOUT ME (SECTION 2)
   color: #dbd8d7;
   font-size: 24px;
   padding: 16px 12px;
+}
+
+/*
+
+PROJECTS
+
+*/
+
+.grid {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, 100%);
+}
+
+.projects__container {
+  padding: 72px 24px;
+  width: 100%;
+}
+
+.project__card--wrapper {
+  flex-wrap: wrap;
+}
+
+.projects__info--title {
+  font-family: 'Crete Round', sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 52px;
+  color: #1c1a19;
+  padding-bottom: 24px;
+  align-items: center;
+  border-bottom: 1px solid #212121;
+}
+
+.project__card--img {
+  height: 100%;
+}
+
+.project__card--text,
+.project__card--img {
+  width: 100%;
+}
+
+.project__card--title {
+  font-family: 'Crete Round', sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44px;
+}
+
+.project__card--para {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 12px 0;
+}
+
+.project__card--lenguages {
+  width: 75%;
+}
+
+.project__card--lenguage {
+  border: 1px solid #8993a4;
+  width: 100%;
+  height: 100%;
+  padding: 10px 12px;
+  margin-right: 12px;
+  align-items: center;
+}
+
+.project__card--button {
+  font-family: 'Inter', sans-serif;
+  line-height: 24px;
+  font-size: 17px;
+  font-weight: 700;
+  border: none;
+  background-color: #ff6b00;
+  color: #fff;
+  margin-top: 12px;
+  transition: all 100ms ease;
+  cursor: pointer;
+}
+
+.project__card--button:hover {
+  background-color: #fff5e1;
+  color: #ff6b00;
+}
+
+.project__card--button:active {
+  background-color: #e05304;
+  color: #f4f1f0;
+  border: 1px solid #e05304;
+  transform: scale(0.9);
+}
+
+.project__card--button:disabled {
+  background-color: #f4f1f0;
+  color: #5b5957;
+  border: 1px solid #f4f1f0;
+}
+
+.project__card--button--position {
+  padding: 12px;
+}
+
+.project__card--button-secondary {
+  width: 100%;
+  padding: 12px;
+}
+
+.works__container {
+  margin-top: 24px;
+  align-items: flex-start;
+  background-image: url(./assets/Img\ Placeholder\ project.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.works__lenguages {
+  width: 75%;
+  padding-bottom: 12px;
+}
+
+.works__container--text {
+  padding: 72px 13px 0 13px;
+}
+
+.project__card--lenguage-secondary {
+  background: rgba(255, 255, 255, 0.24);
+  padding: 10px 12px;
+  border: none;
+}
+
+.about-me__info--para--secondary {
+  padding: 24px 0;
+  color: #f4f5f7;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  width: 90%;
+}
+
+.about-me__info--container--secondary {
+  background-color: #1c1a19;
+  position: relative;
+  align-items: flex-start;
+  padding: 120px 24px;
+  width: 100vw;
+}
+
+.about-me__info--container--secondary::before {
+  content: "";
+  position: absolute;
+  top: 16%;
+  left: 60%;
+  right: 0;
+  bottom: 0;
+  background-image: url(./assets/Frame\ updated.svg);
+  background-repeat: no-repeat;
+  background-size: 150px;
+}
+
+.horizontal-line {
+  margin: 100px 0;
+  background-color: #fff;
+  width: 100%;
+  height: 1px;
+}
+
+.tech-stack__lists {
+  justify-content: center;
+}
+
+.fa-diamond,
+.fa-square,
+.fa-circle {
+  color: #ff6b00;
+  font-size: 26px;
+}
+
+.tech-stack__title {
+  margin-bottom: 12px;
+}
+
+.tech-stack__list--title {
+  color: #fff;
+  font-family: 'InaiMathi', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.tech-stack__item {
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  line-height: 43px;
+  font-size: 22px;
+  font-weight: 400;
+  font-style: normal;
+  margin: 12px 0;
+}
+
+.tech-stack__items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 38px;
 }

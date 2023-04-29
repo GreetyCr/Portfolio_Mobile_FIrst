@@ -293,7 +293,8 @@ PROJECTS
 }
 
 .fa-diamond,
-.fa-square {
+.fa-square,
+.fa-circle {
   color: #ff6b00;
   font-size: 26px;
 }

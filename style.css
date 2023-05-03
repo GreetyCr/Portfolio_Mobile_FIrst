@@ -203,7 +203,13 @@ PROJECTS
   margin-top: 12px;
   transition: all 100ms ease;
   cursor: pointer;
+  align-items: center;
+  text-align: center;
+  padding: 12px 12px;
 }
+
+
+
 
 .project__card--button:hover {
   background-color: #fff5e1;
@@ -337,33 +343,39 @@ textarea {
   background-color: #fff;
   color: inherit; 
   outline: none;
-  border: 1px solid #DBD8D7;
+  border: 1px solid #dbd8d7;
   border-top: none;
   border-left: none;
   border-right: none;
   height: 40px;
   margin-bottom: 35px;
 }
+
 textarea {
-  background-color: #FBF8F7;
+  background-color: #fbf8f7;
   resize: none;
 }
+
 /*
 CONTACT ME FORM
 */
+
 .contact-me__container {
   display: flex;
   align-items: center;
   align-content: center;
 }
+
 .contact-me__form--container,
 .contact__form {
   background-color: #fff;
   padding: 0 24px;
 }
+
 .contact-me__form--container {
   width: 100%;
 }
+
 .contact-me__header--text {
   font-family: ‘Inter’, sans-serif;
   font-weight: 700;
@@ -371,21 +383,18 @@ CONTACT ME FORM
   line-height: 44px;
   align-items: center;
 }
+
 .contact-me__header {
   text-align: center;
   padding: 69px 24px;
 }
+
 .textarea-input {
-  color: #3C3A39;
+  color: #3c3a39;
   font-family: ‘Inter’, sans-serif;
   font-weight: 400;
   line-height: 24px;
   font-size: 15px;
   font-style: italic;
   height: 114px;
-}
-.project__card--button {
-  align-items: center;
-  text-align: center;
-  padding: 12px 12px;
 }

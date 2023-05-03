@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:wght@400;700&display=swap");
 
 * {
   padding: 0;
@@ -95,7 +95,7 @@ ABOUT ME (SECTION 2)
 }
 
 .about-me__info--title {
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-weight: 400;
   color: #ff6b00;
   font-size: 56px;
@@ -104,13 +104,13 @@ ABOUT ME (SECTION 2)
 
 .about-me__info--sub-title {
   color: #fff5e1;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 32px;
   padding: 8px 0;
 }
 
 .about-me__info--para {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #fff;
   font-size: 16px;
   font-style: normal;
@@ -146,7 +146,7 @@ PROJECTS
 }
 
 .projects__info--title {
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-size: 40px;
   font-weight: 400;
   line-height: 52px;
@@ -166,14 +166,14 @@ PROJECTS
 }
 
 .project__card--title {
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-size: 32px;
   font-weight: 400;
   line-height: 44px;
 }
 
 .project__card--para {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 16px;
   line-height: 24px;
   padding: 12px 0;
@@ -193,7 +193,7 @@ PROJECTS
 }
 
 .project__card--button {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   line-height: 24px;
   font-size: 17px;
   font-weight: 700;
@@ -207,9 +207,6 @@ PROJECTS
   text-align: center;
   padding: 12px 12px;
 }
-
-
-
 
 .project__card--button:hover {
   background-color: #fff5e1;
@@ -314,14 +311,14 @@ PROJECTS
 
 .tech-stack__list--title {
   color: #fff;
-  font-family: 'InaiMathi', sans-serif;
+  font-family: "InaiMathi", sans-serif;
   font-weight: 700;
   font-size: 32px;
 }
 
 .tech-stack__item {
   color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   line-height: 43px;
   font-size: 22px;
   font-weight: 400;
@@ -341,7 +338,7 @@ input,
 textarea {
   width: 100%;
   background-color: #fff;
-  color: inherit; 
+  color: inherit;
   outline: none;
   border: 1px solid #dbd8d7;
   border-top: none;

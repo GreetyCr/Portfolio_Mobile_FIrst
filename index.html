@@ -325,15 +325,16 @@
         </h2>
       </article>
       <article class="contact-me__form--container flex_column">
-        <form id="contact__form" class="flex_column">
+        <form id="contact__form" class="flex_column" action="https://formspree.io/f/mjvdlojw"
+        method="POST">
           <div class="form__item">
-            <input class="input" type="text" name="user_name" placeholder="Full name" required></input>
+            <input class="input" type="text" name="user_name" placeholder="Full name" maxlength="30" required></input>
           </div>
           <div class="form__item">
             <input class="input" type="email" name="user_email" placeholder="Email address" required></input>
           </div>
           <div class="form__item">
-            <textarea class="input textarea-input" type="text" name="message" placeholder="Write me something..." required></textarea>
+            <textarea class="input textarea-input" type="text" name="message" maxlength="500" placeholder="Write me something..." required></textarea>
           </div>
           <button id="contact__submit" class="form__submit project__card--button">
             Get in touch

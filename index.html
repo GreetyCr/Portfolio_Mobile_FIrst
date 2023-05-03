@@ -11,7 +11,7 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body>
+  <body class="flex_column">
     <header id="about-me">
       <nav class="navbar flex_row">
         <figure>
@@ -317,6 +317,29 @@
           <li class="tech-stack__item">Web Development</li>
         </ul>
       </ul>
+    </section>
+    <section class="contact-me__container flex_column">
+      <article class="contact-me__header flex_column">
+        <h2 class="contact-me__header--text flex_column">
+          I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
+        </h2>
+      </article>
+      <article class="contact-me__form--container flex_column">
+        <form id="contact__form" class="flex_column">
+          <div class="form__item">
+            <input class="input" type="text" name="user_name" placeholder="Full name" required></input>
+          </div>
+          <div class="form__item">
+            <input class="input" type="email" name="user_email" placeholder="Email address" required></input>
+          </div>
+          <div class="form__item">
+            <textarea class="input textarea-input" type="text" name="message" placeholder="Write me something..." required></textarea>
+          </div>
+          <button id="contact__submit" class="form__submit project__card--button">
+            Get in touch
+          </button>
+        </form>
+      </article>
     </section>
   </body>
 </html>

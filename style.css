@@ -211,6 +211,7 @@ PROJECTS
 .project__card--button:hover {
   background-color: #fff5e1;
   color: #ff6b00;
+  border: 1px solid #e05304;
 }
 
 .project__card--button:active {
@@ -394,4 +395,11 @@ CONTACT ME FORM
   font-size: 15px;
   font-style: italic;
   height: 114px;
+}
+
+.form__submit {
+  padding: 12px;
+  width: 131px;
+  height: 48px;
+  align-self: center;
 }

@@ -297,8 +297,8 @@
         </ul>
         <li class="tech-stack__title">
           <i class="fa-solid fa-square"></i
-          ><span class="tech-stack__list--title"> Frameworks</span>
-        </li>
+          ><span class="tech-stack__list--title"> Frameworks</span>         
+        </li>       
         <ul class="tech-stack__items">
           <li class="tech-stack__item">React.js</li>
           <li class="tech-stack__item">Ruby on Rails</li>
@@ -318,6 +318,25 @@
         </ul>
       </ul>
     </section>
-    
+    <footer class="contact__container--wrapper">
+      <div class="contact__container">
+          <div class="contact__text_box">
+            <h2 class="contact__heading">
+              I'm always interested in hearing about new projects, so if you'd
+            like to chat please get in touch.
+            </h2>
+          </div>
+          <form class="contact__form" action="https://formspree.io/f/mjvdlojw" method="post">
+            <fieldset class="contact__group">
+                <input name="user_name" type="text" placeholder="Full name" maxlength="30" required>
+                <input name="user_email" type="email" placeholder="Email Address"  required>
+                <textarea name="user_message" placeholder="Enter text here" maxlength="500"  required></textarea>
+
+
+            </fieldset>
+           <input class="contact__btn" type="submit" value="Get in touch">
+          </form>
+      </div>
+    </footer>
   </body>
 </html>

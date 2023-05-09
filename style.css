@@ -14,6 +14,10 @@ html {
   scroll-behavior: smooth;
 }
 
+textarea {
+  resize: none;
+}
+
 .flex_row {
   display: flex;
 }
@@ -358,31 +362,34 @@ textarea {
 CONTACT ME FORM
 */
 
-.contact-me__container {
+.contact__container--wrapper {
   display: flex;
-  align-items: center;
-  align-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 12rem;
+  gap: 1.5rem;
 }
 
-.contact-me__form--container,
+.contact__form--container,
 .contact__form {
   background-color: #fff;
   padding: 0 24px;
 }
 
-.contact-me__form--container {
+.contact__form--container {
   width: 100%;
 }
 
-.contact-me__header--text {
+.contact__heading {
   font-family: ‘Inter’, sans-serif;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
   align-items: center;
+  text-align: center;
 }
 
-.contact-me__header {
+.contact__header {
   text-align: center;
   padding: 69px 24px;
 }
@@ -403,3 +410,48 @@ CONTACT ME FORM
   height: 48px;
   align-self: center;
 }
+
+.contact__form {
+  padding-bottom: 12rem;
+
+}
+
+.contact__form .contact__group {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.contact__group {
+  border: 0;
+
+}
+
+.contact__group input .contact__group textarea {
+
+  width: 100%;
+  border: none;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+  
+}
+
+.contact__form input {
+  border-bottom: 1px solid #dbd8d7;
+  padding: 1.5rem 1.6rem;
+}
+
+.contact__form textarea {
+  background-color: #fbf8f7;
+  height: 11.4rem;
+  padding: 1.2rem 1.2rem;
+  
+}
+
+
+
+

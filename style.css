@@ -42,6 +42,10 @@ li {
   margin-left: 15%;
 }
 
+footer {
+  margin-top: 7.6rem;
+}
+
 /*
 
 NAVBAR (SECTION 1)
@@ -402,4 +406,24 @@ CONTACT ME FORM
   width: 131px;
   height: 48px;
   align-self: center;
+}
+
+.footer__social-icons {
+  width: 100%;
+  border-top: 1px solid #dfe1e6;
+  padding-top: 1.2rem;
+  padding-bottom: 3.4rem;
+}
+
+.footer__social-icon {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2rem;
+}
+
+.icon-color {
+  color: #505F79;
+  font-weight: 800;
 }

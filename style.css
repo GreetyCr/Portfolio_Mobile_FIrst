@@ -14,10 +14,6 @@ html {
   scroll-behavior: smooth;
 }
 
-textarea {
-  resize: none;
-}
-
 .flex_row {
   display: flex;
 }
